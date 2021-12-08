@@ -6,7 +6,7 @@ set -eu
 
 composer require imanghafoori/laravel-microscope
 
-php artisan optimize
+php artisan optimize:clear
 
 echo $2
 
@@ -14,3 +14,4 @@ php artisan $2
 
 echo 'check success'
 exit 0
+
