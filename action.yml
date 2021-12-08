@@ -10,7 +10,7 @@ inputs:
   command:
     description: ''
     required: true
-    default: check:all
+    default: 'check:all'
 
 
 runs:

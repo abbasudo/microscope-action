@@ -8,6 +8,8 @@ composer require imanghafoori/laravel-microscope
 
 php artisan optimize
 
+echo $2
+
 php artisan $2
 
 echo 'check success'
