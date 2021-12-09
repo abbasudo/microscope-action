@@ -10,7 +10,7 @@ php artisan optimize:clear
 
 echo $2
 
-php artisan $2
+php-cli artisan $2
 
 echo 'check success'
 exit 0
