@@ -4,16 +4,14 @@
 set -eu
 
 
-composer require imanghafoori/laravel-microscope
+composer require imanghafoori/laravel-microscope --dev
 
 php artisan optimize:clear
-
-echo $2
 
 cp .env.example .env
 
 php artisan $2
 
-echo 'check success'
+echo 'code checks ran successfully'
 exit 0
 
