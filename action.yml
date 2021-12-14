@@ -3,10 +3,6 @@
 name: 'microscope action'
 description: 'check your code with laravel microscope'
 inputs:
-  php_version:
-    description: ''
-    required: true
-    default: 81
   command:
     description: ''
     required: true
@@ -17,7 +13,6 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.php_version }}
     - ${{ inputs.command }}
 
 branding:
