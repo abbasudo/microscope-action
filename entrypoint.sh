@@ -10,7 +10,7 @@ php artisan optimize:clear
 
 cp .env.example .env
 
-php artisan $2
+php artisan $1
 
 echo 'code checks ran successfully'
 exit 0
