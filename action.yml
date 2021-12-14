@@ -1,0 +1,20 @@
+
+# action.yml
+name: 'microscope action'
+description: 'check your code with laravel microscope'
+inputs:
+  command:
+    description: ''
+    required: true
+    default: 'check:all'
+
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.command }}
+
+branding:
+  icon: 'check-circle'  
+  color: 'purple'
