@@ -37,7 +37,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: llabbasmkhll/microscope-action@master
+      - uses: abbasudo/microscope-action@master
 ```
 
 using the action without any parameter uses check:all by default
@@ -59,7 +59,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: llabbasmkhll/microscope-action@master
+      - uses: abbasudo/microscope-action@master
         with :
           command : check:dd
 ```
