@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM laravelsail/php81-composer
+FROM laravelsail/php83-composer
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
